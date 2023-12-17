@@ -4,11 +4,11 @@
   "description": "remote audio player example",
   "main": "remote-play.js",
   "scripts": {
-    "start": "serve"
+    "start": "serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "dynamis",
-  "license": "MIT"
+  "license": "MIT",
   "devDependencies": {
     "serve": "^14.2.1"
   }
