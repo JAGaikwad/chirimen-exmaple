@@ -1,0 +1,19 @@
+// https://codesandbox.io/docs/learn/devboxes/task
+{
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+  "tasks": {
+    "start": {
+      "name": "Start Server",
+      "command": "yarn start",
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
+    }
+  }
+}
